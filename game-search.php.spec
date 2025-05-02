@@ -155,30 +155,30 @@ The filter parameters identified from `search-filter-content.php` are:
 
 ### Tags
 - Filter by tag. Parameter name uses `tag-` followed by the tag ID. Value is 1 if checked. Tag IDs correspond to the human-readable tag names provided in the labels.
-  - `tag-20` (integer): Value 1 (90s)
-  - `tag-6` (integer): Value 1 (Adventure)
-  - `tag-27` (integer): Value 1 (casual)
-  - `tag-9` (integer): Value 1 (Child-friendly)
-  - `tag-25` (integer): Value 1 (Choices Matter)
-  - `tag-23` (integer): Value 1 (Chuck)
-  - `tag-15` (integer): Value 1 (Dystopian)
-  - `tag-4` (integer): Value 1 (Educational)
-  - `tag-13` (integer): Value 1 (Escape the room)
-  - `tag-2` (integer): Value 1 (Fantasy)
-  - `tag-14` (integer): Value 1 (Gameboy)
-  - `tag-11` (integer): Value 1 (Hidden object)
-  - `tag-16` (integer): Value 1 (History)
-  - `tag-7` (integer): Value 1 (Hybrid)
-  - `tag-24` (integer): Value 1 (Maniac Mansion)
-  - `tag-3` (integer): Value 1 (Medieval)
-  - `tag-17` (integer): Value 1 (Museum)
   - `tag-1` (integer): Value 1 (Non-Adventure)
-  - `tag-8` (integer): Value 1 (Quiz)
-  - `tag-18` (integer): Value 1 (Retro)
+  - `tag-2` (integer): Value 1 (Fantasy)
+  - `tag-3` (integer): Value 1 (Medieval)
+  - `tag-4` (integer): Value 1 (Educational)
   - `tag-5` (integer): Value 1 (RPG)
-  - `tag-22` (integer): Value 1 (simulation)
-  - `tag-26` (integer): Value 1 (Wild West)
+  - `tag-6` (integer): Value 1 (Adventure)
+  - `tag-7` (integer): Value 1 (Hybrid)
+  - `tag-8` (integer): Value 1 (Quiz)
+  - `tag-9` (integer): Value 1 (Child-friendly)
+  - `tag-11` (integer): Value 1 (Hidden object)
+  - `tag-13` (integer): Value 1 (Escape the room)
+  - `tag-14` (integer): Value 1 (Gameboy)
+  - `tag-15` (integer): Value 1 (Dystopian)
+  - `tag-16` (integer): Value 1 (History)
+  - `tag-17` (integer): Value 1 (Museum)
+  - `tag-18` (integer): Value 1 (Retro)
+  - `tag-20` (integer): Value 1 (90s)
   - `tag-21` (integer): Value 1 (Word Game)
+  - `tag-22` (integer): Value 1 (simulation)
+  - `tag-23` (integer): Value 1 (Chuck)
+  - `tag-24` (integer): Value 1 (Maniac Mansion)
+  - `tag-25` (integer): Value 1 (Choices Matter)
+  - `tag-26` (integer): Value 1 (Wild West)
+  - `tag-27` (integer): Value 1 (casual)
   *(This list includes all tags found in the source)*
 
 ### Other
@@ -249,4 +249,5 @@ JSON object containing:
 ## Notes
 
 - The "Filter Parameters" section is now documented based on the checkbox inputs found in `search-filter-content.php` but this has not been reviewed or tuned.
+- Further network monitoring during form interactions would reveal further structure of responses.
 - The application's JavaScript (particularly search.min.js) handles the collection of all checked form fields and filters before submitting the complete JSON payload to the API.
